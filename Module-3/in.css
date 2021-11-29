@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+h1
+{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+
+.container
+{
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+
+.con
+{
+  margin: 0px;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.head1
+{
+  text-align: center;
+  background-color: rgb(252, 141, 101);
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+  font-family: 'Pacifico', cursive;
+}
+.inner1
+{
+  display: flex;
+}
+.inner2
+{
+  margin: 0;
+}
+.box1 {
+  background-color:wheat;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: justify;
+
+}
+.box1:hover
+{
+  background-color: rgb(243, 216, 167);
+  transition: 0.2s;
+  box-shadow: 5px 5px 5px grey;
+}
+.vis
+{
+  visibility: hidden;
+}
+li
+{
+  visibility: hidden;
+  text-align: center;
+}
+
+
+@media only screen and (max-width:575px){
+  
+  li
+  {
+    visibility: visible;
+  }
+  .con
+  {
+    display: block;
+  }
+  .inner1
+  {
+    display: block;
+  }
+  .vis
+  {
+    visibility: visible;
+  }
+}
+@media only screen and (min-width:576px) and (max-width:991px){
+
+  
+  .con
+  {
+    display: block;
+  }
+
+}
